@@ -4,7 +4,7 @@ const CountryCard = ({ name, imgUrl }) => {
   return (
     <div className="countryCard" style={cardStyle}>
       <img src={imgUrl} alt={name} style={imgStyle} />
-      <h4>{name}</h4>
+      <h2>{name}</h2>
     </div>
   );
 };
